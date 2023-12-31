@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  user-select: none;
 }
 
 :root {
@@ -25,6 +26,7 @@ body {
   translate: -50% -50%;
   border-radius: 15px;
   background: var(--item-color);
+  overflow: auto;
 }
 
 h2 {
@@ -38,6 +40,7 @@ h2 {
   justify-content: center;
   gap: 5px;
   margin: 0 10px 10px 10px;
+  position: relative;
 }
 
 input {
@@ -57,7 +60,7 @@ button {
   outline: none;
   border: 1px solid cyan;
   border-radius: 25px;
-  right: 12px;
+  right: 0;
   background: black;
   color: white;
 }
